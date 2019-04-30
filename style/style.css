@@ -1,8 +1,14 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+/* End Font */
+
 /* Start Body */
 body{
-    background-color:  #EDF0FF;
-    color:rgb(197, 14, 75);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #FFFFFF;
+    color:  #02040F;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
     margin: 0;
@@ -12,20 +18,19 @@ body{
 
 /* Start Debug */
 .bg-blue{
-    background-color:#FFB92D;
+    background-color:#FFFFFF;
 }
 
 .bg-red{
-    background-color: #F56476;
+    background-color:#7B0828;
 }
 /* End Debug */
 
 /* Start Container */
 .container{
-    margin: 10px auto;
+    margin: 20px auto;
     overflow: auto;
     width: 90%;
-
 }
 
 .full{
@@ -40,4 +45,397 @@ body{
 .logo{
     text-align: center;
 }
+.logo img{
+    height: 200;
+    width:1000;
+}
 /* End Logo */
+
+/* Start Anchor/ Hyperlink */
+a:link,
+a:visited{
+    color: #0366d6;
+    text-decoration: none;
+}
+a:hover,
+a:active{
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Anchor/ Hyperlink */
+
+/* Start menu primer */
+.menu-primer ul{
+    background-color:#7B0828;
+    border-radius: 4px;
+    box-shadow: 9px -4px 20px 1px #02040F;
+}
+
+.menu-primer li{
+    border-right: 1px solid  white;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+
+} 
+.menu-primer a:hover{
+    background-color: #f7f7f7;
+    color:#000000;
+    text-decoration: none;
+}
+
+.menu-primer .active{
+    background-color: #ffffff;
+    color:#333333;
+    text-decoration: none;
+}
+/* End menu primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 13px;
+}
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron{
+    background-color: #F56476;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding:0 20px;
+}
+.jumbotron h3{
+    font-size: 20px;
+    padding:0 20px;
+}
+/* End Jumbotron */
+
+/* Start  main */
+.main-home-one{
+    float: left;
+    width: 49.5%;
+}
+.main-home-two{
+    float: right;
+    width: 49.5%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi{
+    height: 140px;
+}
+.main-one{
+    float: left;
+    overflow: auto;
+    width: 70%;
+}
+/* End  main */
+
+/* Start Sidebar */
+.sidebar-two{
+    float: right;
+    overflow: auto;
+    width: 29%;
+}
+/* End Sidebar */
+
+/* Start Box */
+.box-heading{
+    background-color: #7B0828;
+    border: 1px solid #02040F;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4{
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi{
+    background-color: coral;
+    border: 1px solid rgb(110, 25, 53);
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+/* End Box  */
+
+/* Start Produk Table */
+.produk-table{
+    border: 1px solid  rgb(110, 25, 53);
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.produk-table th{
+    background-color:  coral;
+}
+.produk-table td{
+    text-align: center;
+}
+/* End Produk Table */
+
+/* Start Testimonial */
+.testimonial{
+    border-left: 4px solid indianred;
+    margin-left: 3px;
+    padding-left: 20px;
+}
+/* End Testimonial */
+
+/*Start Form */
+input[type="text"],
+input[type="email"],
+textarea{
+    font-size: 14px;
+    padding:  10px;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color:#7B0828;
+    font-weight: 300;
+}
+
+input[type="submit"],
+button{
+    background-color: #7B0828;
+    background-image: linear-gradient(-180deg, #fafbfc 0%,#eff3f6 90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: #000000 !important;
+    font-size: 12px; 
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*End Form */
+
+/* Start Contact Form */
+.contact-form div{
+    margin: 20 px 0;
+}
+/* End Contact Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid lightblue;
+    border-top: 1px solid lightpink;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul{
+    padding: 0;
+}
+.menu-sekunder li{
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+}
+.menu-sekunder-one{
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three{
+    width: 30%;
+}
+.menu-sekunder li img{
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p{
+    font-size: 15px;
+}
+/* End Copyright */
+
+/* Start Effect */
+.snip1557 {
+    font-family: 'Poppins', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 230px;
+    max-width: 315px; 
+    width: 100%;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .snip1557 *,
+  .snip1557 *:before,
+  .snip1557 *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+  }
+  
+  .snip1557:after {
+    -webkit-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    top: -478px;
+    left: -478px;
+    border-radius: 50%;
+    border: 500px solid transparent;
+    border-top-color: #000000;
+    border-left-color: #000000;
+    content: '';
+    opacity: 0.8;
+  }
+  
+  .snip1557 img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  
+  .snip1557 i {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+    color: #000000;
+    display: block;
+    z-index: 10;
+  }
+  
+  .snip1557 i:before,
+  .snip1557 i:after {
+    border-radius: 50%;
+  }
+  
+  .snip1557 i:before {
+    color: #ddd;
+    background-color: #fff;
+    font-size: 37.64705882px;
+    line-height: 64px;
+    text-align: center;
+    width: 64px;
+  }
+  
+  .snip1557 i:after {
+    position: absolute;
+    top: -14px;
+    bottom: -14px;
+    left: -14px;
+    right: -14px;
+    border: 15px solid #ddd;
+    border-top-color: #2980b9;
+    border-left-color: #2980b9;
+    content: '';
+    z-index: -2;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  .snip1557 i:hover {
+    background-color: #D2B17F;
+    cursor: pointer;
+  }
+  
+  .snip1557 h3 {
+    bottom: 0;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 0;
+    opacity: 0;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    z-index: 3;
+  }
+  
+  .snip1557 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+  }
+  
+  .snip1557:hover:after,
+  .snip1557.hover:after {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  
+  .snip1557:hover img,
+  .snip1557.hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .snip1557:hover i:before,
+  .snip1557.hover i:before {
+    color: #2980b9;
+  }
+  
+  .snip1557:hover i:after,
+  .snip1557.hover i:after {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+  
+  .snip1557:hover h3,
+  .snip1557.hover h3 {
+    opacity: 1;
+  }
+/* Start Effect */

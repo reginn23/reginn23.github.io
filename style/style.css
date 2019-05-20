@@ -69,6 +69,7 @@ a:active {
     background-color:#7B0828;
     border-radius: 4px;
     box-shadow: 9px -4px 20px 1px #02040F;
+    text-align: center;
 }
 
 .menu-primer li{

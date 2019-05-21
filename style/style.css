@@ -132,20 +132,20 @@ h6{
     background-image: url(https://i.pinimg.com/originals/1c/59/c6/1c59c64b468dfe64e2e73593002b3dc2.jpg);
     border: 1px solid #FFFFFF;
     border-radius: 4px;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
     padding: 0px 0px;
 }
 .jumbotron h1{
     font-size: 32px;
-    padding:50px 20px;
+    padding:20px 0px;
     color: #7B0828;
     font-weight: bold;
     text-align: center;
 }
 .jumbotron h3{
     font-size: 20px;
-    padding:0px 20px;
+    padding:0px 0px;
     text-align: center;
 }
 /* End Jumbotron */
@@ -833,4 +833,103 @@ button{
 }
 
 /*End Testimonial*/
+ 
+/*Start Sale*/
+@import url(https://fonts.googleapis.com/css?family=Open+sans:700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+.snip1560 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 10px;
+  min-width: 31.5%;
+  max-width: 31.5%;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  float: left;
+  box-shadow: none !important;
+  position: relative;
+  padding: 10px;
+  border: 2px solid #7B0828;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+.snip1560:before {
+  content: '';
+  background-color: #000000;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  z-index: -1;
+}
+
+.snip1560 * {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1560 img {
+  max-width: 100%;
+  vertical-align: top;
+  background-image: linear-gradient(#000000, #ffffff);
+}
+
+.snip1560 figcaption,
+.snip1560 .link {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.snip1560 h2,
+.snip1560 h3,
+.snip1560 h4 {
+  margin: 0px;
+  position: absolute;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.snip1560 h2 {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 2em;
+  font-family: 'Playfair Display', Arial, sans-serif;
+}
+
+.snip1560 h2 span {
+  color: #7B0828;
+}
+
+.snip1560 h3 {
+  font-size: 1.3em;
+  bottom: 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #7B0828;;
+}
+
+
+.snip1560 h4 {
+  color: #7B0828;;
+  top: 0;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  opacity: 0.9;
+  font-family: 'Playfair Display', Arial, sans-serif;
+}
+
+.snip1560:hover img,
+.snip1560.hover img {
+  opacity: 0.35;
+}
+
+/*End Sale*/
